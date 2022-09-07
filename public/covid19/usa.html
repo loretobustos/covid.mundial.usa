@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>HITO 2</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- Datatable -->
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <!-- Nav tabs -->
+  <nav class="barra navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand ml-2" href="./index.html">
+      <img class="logo" src="assets/img/SARS-CoV-2_without_background.png" alt="">
+      Situacion COVID 19 USA</a>
+    <button class="navbar-toggler boton" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item active nav-link" href="./index.html">Home</a>
+            <a class="nav-item active nav-link" href="#myChart">Usa</a>
+            <a class="nav-link active nav-item" href="./usa.html">Cerrar sesión</a>
+        </div>
+    </div>
+</nav>
+
+<main >
+  <!-- titulo -->
+  <div id="hitoUsa" class="container">
+    <div class="row justify-content-center align-items-center p-5">
+      <div class="col-md-12">
+        <h3 class="text-center">
+          Hito 2 - USA
+          <hr>
+        </h3>
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- inicio seccion -->
+ 
+        <div id="formularioIngreso" class="col-md-12 ">
+
+          <form id="miFormulario">
+            <div class="formulario form-group">
+              <label>Correo</label>
+              <input type="email" class="form-control" id="correo" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+              <label>Contraseña</label>
+              <input type="password" class="form-control" id="pass">
+            </div>
+            <button type="submit" class="btn btn-info">Enviar</button>
+          </form>
+        </div>
+     
+
+  <!-- Chart -->
+ 
+  <div id="informacion" class="row" style="display: none">
+
+    <div class="col-md-12">
+      <h3>
+        Covid 19 en USA
+      </h3>
+    </div>
+
+    <div class="chartCard">
+      <div id="js-form-wrapper" class="chartBox" style="display: block; text-align: center;">
+        <canvas id="myChart" class="pt-2 container-fluid" style="height: 370px; width: 100%; text-align: center;"></canvas>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<br><br><br><br><br>
+
+  <footer class="footer">
+    <p class="derechos">2022 © Todos los derechos reservados - Grupo 2 - Modulo - 4  </p>
+</footer>
+
+  <!-- Optional JavaScript -->
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+  <!-- cjarjs -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+  <!-- mi script -->
+  <script src="./assets/js/scriptUsa.js"></script>
+
+</body>
+
+</html>

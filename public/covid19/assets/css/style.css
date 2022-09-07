@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+   
+}
+.barra{
+    padding: 30px;
+    background: linear-gradient(72deg, rgba(36,38,38,1) 35%, rgba(8,237,150,1) 81%);
+    color: white;
+}
+
+body {
+    background: #f2f2f2;
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      saseans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+ .logo{
+    width: 18%;
+ } 
+
+main{
+    height: 85%; 
+}
+.footer{
+    padding: 25px;
+    background: linear-gradient(72deg, rgba(36,38,38,1) 35%, rgba(8,237,150,1) 81%);
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    left: 85% auto;
+}
